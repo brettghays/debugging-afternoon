@@ -9,7 +9,8 @@ const GET_ALL_PRODUCTS_FULFILLED = "GET_ALL_PRODUCTS_FULFILLED";
 
 let initialState = {
     products: [],
-    shoppingCart: []
+    shoppingCart: [],
+    loading: false
 }
 
 // Reducer
